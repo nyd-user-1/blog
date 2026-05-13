@@ -1,6 +1,6 @@
 title: Supporting Access to Childcare Funding
 description: Built a Next.js platform that helps NY parents find regulated childcare, surfacing 16,800+ OCFS-licensed providers with county-level cost data, interactive maps, and an AI chat panel for personalized recommendations.
-image: https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image related to code/development
+image: /hero/childcare.avif
 url: "#"
 tags: ["Developer Tools", "UX Design", "Nuxt", "Design System", "Internal Tools"]
 date: "May 2026"

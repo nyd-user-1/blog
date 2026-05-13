@@ -1,6 +1,6 @@
 title: Policy Inteligence Platform
 description: Built an AI-powered research tool that makes New York State legislation searchable, summarizable, and actionable. Transformed thousands of dense bills, statutes, and policy documents into a conversational interface that lets advocates, staffers, and citizens get clear answers in seconds instead of hours.
-image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80 # Example image related to music/audio
+image: /hero/assembly.avif
 url: "nysgpt.com"
 tags: ["UI Design", "Front-End Dev", "Animation"]
 date: "February 2026"
