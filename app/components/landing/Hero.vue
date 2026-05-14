@@ -176,13 +176,15 @@ defineProps<{
           delay: index * 0.1
         }"
       >
-        <NuxtImg
-          width="234"
-          height="234"
-          class="rounded-lg aspect-square object-cover"
-          :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
-          v-bind="img"
-        />
+        <NuxtLink :to="img.to || '/projects'">
+          <NuxtImg
+            width="234"
+            height="234"
+            class="rounded-lg aspect-square object-cover cursor-pointer hover:opacity-90 transition-opacity"
+            :class="index % 2 === 0 ? '-rotate-2' : 'rotate-2'"
+            v-bind="img"
+          />
+        </NuxtLink>
       </Motion>
     </UMarquee>
   </UPageHero>
