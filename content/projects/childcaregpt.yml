@@ -1,7 +1,7 @@
 order: 1
 title: Supporting Access to Childcare Funding
-description: Built a Next.js platform that helps NY parents find regulated childcare, surfacing 16,800+ OCFS-licensed providers with county-level cost data, interactive maps, and an AI chat panel for personalized recommendations.
+description: ChildcareGPT provides parents access to regulated,l icensed childcare providers and funding by redesigned a database of more than 16,800+ OCFS-licensed facilities and making our own version of the NYS OCFS eligiblity questionnaire.
 image: /hero/childcare.avif
-url: "#"
-tags: ["Developer Tools", "UX Design", "Nuxt", "Design System", "Internal Tools"]
+url: "childcare.nysgpt.com"
+tags: ["Childcare", "Funding", "UI Design", "UX Design", "AI"]
 date: "May 2026"

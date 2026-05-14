@@ -1,0 +1,7 @@
+order: 5
+title: Curious About Nuclear Science?
+description: The Nuclear Science Reference database is a public resource for scientist with more than 80,000 entries dating back more than 100 years, but its UI and search functionality were nearly as old. We modernized its UI/UX, made its database conversational, and added semantic search to more than 40,000 historic records.
+image: /hero/nuclear-science.avif
+url: "nsr.nysgpt.com"
+tags: ["Science", "Research", "Database", "UI Design", "UX Design"]
+date: "March 2026"
