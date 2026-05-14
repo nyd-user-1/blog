@@ -1,8 +1,8 @@
 seo:
   title: "Brendan Stanton - UX/UI Designer"
   description: "Welcome to my portfolio! I'm Brendan Stanton, a UX/UI designer and front-end developer based in New York. I specialize in creating user-centered digital experiences for regulated public data."
-title: "Hey, I'm Brendan Stanton UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in New York, bringing ideas to life through code and creativity."
+title: "Hey, I'm Brendan. UI/UX Designer"
+description: "I build production AI experiences using real data for heavily regulated industries and government ogranizations."
 hero:
   images:
     - src: /hero/assembly.avif
@@ -24,8 +24,7 @@ hero:
 about:
   title: "About Me"
   description: |
-    NYSgpt is about AI-first platforms grounded in real-world data — civic, scientific, and regulated-industries.
-    Our approach blends AI engineering with regulatory literacy, turning public datasets into compliant, production-grade products.
+    NYSgpt - letblends AI engineering with regulatory literacy, turning public datasets into compliant, production-grade products.
 experience:
   title: Work Experience
   items:
