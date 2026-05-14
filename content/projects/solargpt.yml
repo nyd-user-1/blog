@@ -1,3 +1,4 @@
+order: 4
 title: Identifying Solar Potential Nationwide
 description: Built an end-to-end solar advisory platform that helps homeowners decide whether to install solar by combining Google Maps Solar API rooftop analysis with NREL Cambium 2024 long-run grid value data. Designed and shipped the Next.js + Neon Postgres stack, an OpenAI Agent Builder workflow with a ChatKit chat drawer, and interactive maps for U.S. solar potential and balancing authorities — turning fragmented federal datasets into a single conversational interface.
 image: /hero/solar-map.avif
