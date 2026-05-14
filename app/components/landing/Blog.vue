@@ -30,14 +30,15 @@ if (!posts.value) {
       <UBlogPost
         v-for="(post, index) in posts"
         :key="index"
-        orientation="horizontal"
+        orientation="vertical"
         variant="naked"
         v-bind="post"
         :to="post.path"
         :ui="{
-          root: 'group relative lg:items-start lg:flex ring-0 hover:ring-0',
-          body: 'px-0!',
-          header: 'hidden'
+          root: 'group flex flex-col items-start ring-0 hover:ring-0 gap-2',
+          header: 'w-[28%] -rotate-1',
+          image: 'rounded-lg shadow-lg border-4 border-muted ring-2 ring-default',
+          body: 'px-0! w-full'
         }"
       >
         <template #footer>
