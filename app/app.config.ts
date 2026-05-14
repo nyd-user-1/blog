@@ -26,17 +26,17 @@ export default defineAppConfig({
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-lucide-car',
+      'img': '/icons/insurance.svg',
       'to': 'https://insurance.nysgpt.com',
       'target': '_blank',
       'aria-label': 'InsuranceGPT'
     }, {
-      'icon': 'solar',
+      'img': '/icons/solar.svg',
       'to': 'https://solar.nysgpt.com',
       'target': '_blank',
       'aria-label': 'SolarGPT'
     }, {
-      'icon': 'i-lucide-baby',
+      'img': '/icons/childcare.svg',
       'to': 'https://childcare.nysgpt.com',
       'target': '_blank',
       'aria-label': 'ChildcareGPT'

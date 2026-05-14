@@ -13,11 +13,21 @@ const { footer } = useAppConfig()
 
     <template #right>
       <template v-if="footer?.links">
-        <UButton
-          v-for="(link, index) of footer?.links"
-          :key="index"
-          v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
-        />
+        <template v-for="(link, index) of footer?.links" :key="index">
+          <a
+            v-if="link.img"
+            :href="link.to"
+            :target="link.target"
+            :aria-label="link['aria-label']"
+            class="inline-flex items-center opacity-70 hover:opacity-100 transition-opacity"
+          >
+            <img :src="link.img" :alt="link['aria-label']" class="size-5" />
+          </a>
+          <UButton
+            v-else
+            v-bind="{ size: 'xs', color: 'neutral', variant: 'ghost', ...link }"
+          />
+        </template>
       </template>
     </template>
   </UFooter>
