@@ -1,7 +1,7 @@
 order: 1
-title: Supporting Access to Childcare Funding
-description: ChildcareGPT provides parents access to regulated,l icensed childcare providers and funding by redesigned a database of more than 16,800+ OCFS-licensed facilities and making our own version of the NYS OCFS eligiblity questionnaire.
+title: Supports Childcare Access and Funding
+description: ChildcareGPT provides access to licensed childcare providers and our own version of the NYS OCFS eligiblity questionnaire, turning a 28 page pdf into a few simple questions.
 image: /hero/childcare.avif
-url: "childcare.nysgpt.com"
+url: "https://childcare.nysgpt.com"
 tags: ["Childcare", "Funding", "UI Design", "UX Design", "AI"]
 date: "May 2026"

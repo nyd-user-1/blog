@@ -1,7 +1,7 @@
 order: 4
 title: Should You Go Solar? Find Out.
-description: Deciding whether to install solar is buried under a mess of utility rates, roof geometry, panel orientation, federal incentives, and 30-year ROI math that most homeowners can't navigate and most installers won't explain straight — so the industry runs on guesswork, lead-gen forms, and inflated quotes. SolarGPT fuses Google's Project Sunroof rooftop analysis with NREL Cambium long-run grid economics into a single conversation that tells any U.S. homeowner, in seconds, what their roof can produce, what it will save, and whether solar actually makes sense for them.
+description: SolarGPT fuses Google's Project Sunroof solar rooftop analysis and heatmaps with National Renewable Energy Laboratory emissions data and grid economics turning disparate data sets into a single, useful conversation about solar energy. Go ahead, check your roof.
 image: /hero/solar-map.avif
-url: "solar.nysgpt.com"
+url: "https://solar.nysgpt.com"
 tags: ["UI Design", "UX Design", "Solar", "Energy"]
 date: "April 2026"

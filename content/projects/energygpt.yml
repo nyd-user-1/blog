@@ -1,6 +1,6 @@
 order: 2
-title: Ask the U.S. Power Grid Anything
-description: The U.S. power system is a $400B black box — plant data, real-time generation, and grid boundaries scattered across EIA spreadsheets, balancing authority feeds, and federal GIS portals, leaving analysts to stitch billion-dollar decisions out of stale, fragmented data. EnergyGPT collapses the entire generation fleet — 10,000+ plants, 71 balancing authorities, capacity, fuel, location, and live output — into a single interactive map you can talk to, turning questions like "where is solar growing fastest?" into answers in seconds.
+title: Ask the Grid Anything
+description: The power system is a black box of plant data, real-time generation and grid boundaries across EIA spreadsheets and GIS portals. We collapsed the entire generation fleet — 10,000+ plants, 71 authorities, and ISO's — into a single map you can talk to.
 image: /hero/power-map.avif
 url: "https://solar.nysgpt.com/map/balancing-authority"
 tags: ["UX Design", "UI Design", "Energy", "Grid"]
