@@ -26,20 +26,20 @@ export default defineAppConfig({
     credits: `Built with Nuxt UI • © ${new Date().getFullYear()}`,
     colorMode: false,
     links: [{
-      'icon': 'i-simple-icons-discord',
-      'to': 'https://go.nuxt.com/discord',
+      'icon': 'i-lucide-car',
+      'to': 'https://insurance.nysgpt.com',
       'target': '_blank',
-      'aria-label': 'Nuxt on Discord'
+      'aria-label': 'InsuranceGPT'
     }, {
-      'icon': 'i-simple-icons-x',
-      'to': 'https://go.nuxt.com/x',
+      'icon': 'i-lucide-sun',
+      'to': 'https://solar.nysgpt.com',
       'target': '_blank',
-      'aria-label': 'Nuxt on X'
+      'aria-label': 'SolarGPT'
     }, {
-      'icon': 'i-simple-icons-github',
-      'to': 'https://github.com/nuxt/ui',
+      'icon': 'i-lucide-baby',
+      'to': 'https://childcare.nysgpt.com',
       'target': '_blank',
-      'aria-label': 'Nuxt UI on GitHub'
+      'aria-label': 'ChildcareGPT'
     }]
   }
 })
