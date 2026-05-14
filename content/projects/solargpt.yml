@@ -1,6 +1,6 @@
 order: 4
-title: Identifying Solar Potential Nationwide
-description: Built an end-to-end solar advisory platform that helps homeowners decide whether to install solar by combining Google Maps Solar API rooftop analysis with NREL Cambium 2024 long-run grid value data. Designed and shipped the Next.js + Neon Postgres stack, an OpenAI Agent Builder workflow with a ChatKit chat drawer, and interactive maps for U.S. solar potential and balancing authorities — turning fragmented federal datasets into a single conversational interface.
+title: Should You Go Solar? Find Out.
+description: Deciding whether to install solar is buried under a mess of utility rates, roof geometry, panel orientation, federal incentives, and 30-year ROI math that most homeowners can't navigate and most installers won't explain straight — so the industry runs on guesswork, lead-gen forms, and inflated quotes. SolarGPT fuses Google's Project Sunroof rooftop analysis with NREL Cambium long-run grid economics into a single conversation that tells any U.S. homeowner, in seconds, what their roof can produce, what it will save, and whether solar actually makes sense for them.
 image: /hero/solar-map.avif
 url: "solar.nysgpt.com"
 tags: ["UI Design", "Front-End Dev", "Animation"]

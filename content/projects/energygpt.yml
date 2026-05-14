@@ -1,7 +1,7 @@
 order: 2
-title: Mapping Power Generation
-description: Led the complete UX/UI overhaul and front-end implementation for a personal finance platform, focusing on data visualization clarity and improving user onboarding flow. Resulted in a 32% increase in user retention.
+title: Ask the U.S. Power Grid Anything
+description: The U.S. power system is a $400B black box — plant data, real-time generation, and grid boundaries scattered across EIA spreadsheets, balancing authority feeds, and federal GIS portals, leaving analysts to stitch billion-dollar decisions out of stale, fragmented data. EnergyGPT collapses the entire generation fleet — 10,000+ plants, 71 balancing authorities, capacity, fuel, location, and live output — into a single interactive map you can talk to, turning questions like "where is solar growing fastest?" into answers in seconds.
 image: /hero/power-map.avif
 url: "https://solar.nysgpt.com/map/balancing-authority"
 tags: ["UX Design", "UI Design"]
-date: "2026"
+date: "April 2026"
