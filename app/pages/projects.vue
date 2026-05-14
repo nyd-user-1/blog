@@ -85,7 +85,7 @@ defineOgImage('Portfolio', { title, description })
         >
           <template #leading>
             <span class="text-sm text-muted">
-              {{ new Date(project.date).getFullYear() }}
+              {{ new Date(project.date).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }) }}
             </span>
           </template>
           <template #footer>
