@@ -31,7 +31,7 @@ export default defineAppConfig({
       'target': '_blank',
       'aria-label': 'InsuranceGPT'
     }, {
-      'icon': 'i-lucide-sun',
+      'icon': 'solar',
       'to': 'https://solar.nysgpt.com',
       'target': '_blank',
       'aria-label': 'SolarGPT'
