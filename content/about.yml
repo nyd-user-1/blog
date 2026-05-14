@@ -1,27 +1,22 @@
 title: About Me
-description: Learn more about my journey as a Boston-based UX/UI Designer & Front-End Developer, my design philosophy, and my passion for crafting intuitive digital experiences.
+description: Learn more about my work as a New York based full-stack AI developer building production platforms over civic, scientific, and regulated-industry data and why I think the next wave of useful software lives at the intersection of AI, public data, and regulatory literacy.
 content: |
-  Hi, I'm **Emma Thompson**, a UX/UI Designer and Front-End Developer based right here in Boston. For the past six years, I've been immersed in the world of digital product creation, focusing on building experiences that are not just functional, but genuinely intuitive and engaging for users.
+  Hi, I'm **Brendan**. I enjoy building and shipping AI-powered platforms grounded in real-world data, legislative records, scientific archives, and regulatory filings with a deliberate focus on the spaces where domain knowledge, AI engineering, and compliance meet.
 
-  My path started at **Boston University**, where I earned a degree in Interactive Design. It was there I discovered my dual passion for the visual language of design and the logical puzzle of code. Since then, I've honed my skills in both areas, believing that the best digital products are born from a deep understanding of both aesthetics and implementation.
+  Three production platforms anchor that work. NYSgpt (nysgpt.com) is a civic AI research tool over New York State legislative data (bills, budgets, lobbying records, and contracts) built with React, Vite, TypeScript, Supabase, pgvector, and the OpenAI and Anthropic APIs. NSRgpt (bnlgpt.vercel.app) is an AI research assistant over 88,000+ Nuclear Science Reference records from Brookhaven National Laboratory. And QuoteTorch (insurance.nysgpt.com) is a patent-pending auto insurance lead generation platform built on Next.js, Neon, and the Claude API via the Vercel AI SDK, with rate estimates calculated from publicly filed carrier data rather than fabricated numbers or real-time API calls.
 
-  ### My Design Philosophy
+  ### My Approach
 
-  My design philosophy is rooted in **empathy** and **problem-solving**. I believe great design starts with understanding the 'why' – the user's needs, motivations, and pain points. I use research, iterative prototyping (often with tools like Figma), and user testing to ensure the solutions I build are truly effective.
+  What sets my work apart isn't a tech stack it's regulatory grounding. I've developed deep working knowledge of New York State Article 44B General Business Law, the state's AI regulation framework, and I treat that expertise as a core part of how I design and build. AI products that interact with government data, financial information, or consumers in regulated industries can't be retrofitted for compliance after the fact; the architecture, the data sourcing, and the user-facing language all have to be right from the start.
 
-  I strive to create interfaces that feel effortless, where functionality and beauty work hand-in-hand. Whether I'm crafting pixel-perfect UIs or writing clean Vue.js/Nuxt.js code, my focus is always on creating value for the end-user.
+  That principle shows up everywhere in my work. NYSgpt is grounded in real legislative records, with RAG pipelines built so answers are traceable to source documents. InsuranceGPT was designed around a clear concept: a marketplace with rate data sourced from public SERFF filings. Building this way takes more thought up front, but it makes for a genuinely useful AI product.
 
   ### What Drives Me
 
-  What keeps me excited about this work is the constant learning and the challenge of translating complex ideas into simple, elegant solutions. There's nothing more rewarding than seeing a design come to life and knowing it's making someone's digital interaction easier or more enjoyable.
+  What keeps me engaged is the breadth of the problem space. A single project might pull in Postgres schema design, pgvector embeddings, prompt engineering, regulatory interpretation, UX copy decisions that have legal implications, and competitive analysis all in the same week. I like that the work doesn't sit neatly inside one role description. Full-stack development, AI engineering, product thinking, and regulated-industry literacy all reinforce each other, and the best products I've built came from refusing to treat them as separate skills.
 
   ### Beyond the Screen
 
-  When I'm not designing or coding, you might find me exploring Boston's latest coffee shops, hiking nearby trails, or occasionally contributing to open-source projects.
+  When I'm not building, I'm usually following developments in AI policy, frontier model safety frameworks, and the evolving regulatory landscape around AI in the U.S. partly because it's directly relevant to my work, and partly because it's one of the more genuinely interesting things happening right now.
 
-  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/#contact) if you'd like to collaborate!
-images:
-  - src: https://images.unsplash.com/photo-1744877478622-a78c7a3336f6?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My coffee workspace
-  - src: https://images.unsplash.com/photo-1744429523595-2c06b8611242?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: My trip to Tokyo
+  Thanks for stopping by. Feel free to browse my [projects](/projects) or [get in touch](/projects) if you'd like to collaborate!
