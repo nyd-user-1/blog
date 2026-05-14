@@ -4,10 +4,6 @@ seo:
 title: "Hey, I'm Brendan Stanton UX/UI Designer"
 description: "I craft intuitive digital experiences where design meets functionality. Based in New York, bringing ideas to life through code and creativity."
 hero:
-  links:
-    - label: "Recent Project"
-      to: https://solar.nysgpt.com
-      color: "neutral"
   images:
     - src: /hero/assembly.avif
       alt: Assembly
