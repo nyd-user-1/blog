@@ -1,9 +1,9 @@
 export default defineAppConfig({
   global: {
     picture: {
-      dark: '/brendan-stanton.avif',
-      light: '/brendan-stanton.avif',
-      alt: 'Brendan Stanton'
+      dark: '/nysgpt-badge.png',
+      light: '/nysgpt-badge.png',
+      alt: 'NYSgpt'
     },
     meetingLink: 'https://cal.com/',
     email: 'ui-pro@nuxt.com',

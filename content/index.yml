@@ -1,8 +1,8 @@
 seo:
   title: "Brendan Stanton - UX/UI Designer"
   description: "Welcome to my portfolio! I'm Brendan Stanton, a UX/UI designer and front-end developer based in New York. I specialize in creating user-centered digital experiences for regulated public data."
-title: "Hey, I'm Brendan. UI/UX Designer"
-description: "I build production AI experiences using real data for heavily regulated industries and government ogranizations."
+title: "Design. Engineering."
+description: "We build production AI experiences using real data for heavily regulated industries and government ogranizations."
 hero:
   images:
     - src: /hero/assembly.avif
@@ -22,36 +22,43 @@ hero:
     - src: /hero/solar-map.avif
       alt: Solar Map
 about:
-  title: "About Me"
+  title: "About NYSgpt"
   description: |
-    NYSgpt - letblends AI engineering with regulatory literacy, turning public datasets into compliant, production-grade products.
+    NYSgpt blends AI engineering with design and regulatory literacy, turning large datasets into compliant, production-grade products.
 experience:
   title: Work Experience
   items:
-    - position: "Founder at"
+    - position: "Founder,"
       date: "2026 - Present"
       company:
         name: NYSgpt
         logo: "i-simple-icons-nuxtdotjs"
         url: "https://nysgpt.com"
         color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+    - position: "Chief Analyst,"
+      date: "2022 - 2024"
       company:
         name: Suffolk County
         logo: "i-simple-icons-raycast"
         url: "https://www.suffolkcountyny.gov"
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: "PIO,"
+      date: "2018 - 2022"
       company:
         name: Nassau County
         logo: "i-simple-icons-linear"
         url: "https://www.nassaucountyny.gov"
         color: "#5E6AD2"
+    - position: "Dir. Mktg. & Partnerships,"
+      date: "2015 - 2018"
+      company:
+        name: AI Signcrafters
+        logo: "i-lucide-signpost"
+        url: "https://aisc.com"
+        color: "#6366f1"
 blog:
   title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  description: "Some thoughts"
 faq:
   title: Frequently Asked Questions
   description: Answers to common questions about my process and services.

@@ -1,14 +1,14 @@
 ---
-title: "From Mockup to Market: My End-to-End Product Design Process"
+title: "From Mockup to Market: SolarGPT"
 description: A detailed breakdown of how I'm building SolarGPT — from data architecture decisions to agent workflows to spec-driven design — with the tradeoffs and course-corrections along the way.
 date: 2026-05-13
-image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: /gea-regions.avif
 minRead: 8
 author:
-  name: Brendan
+  name: Admin
   avatar:
-    src: https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
-    alt: Brendan
+    src: /nysgpt-badge.png
+    alt: NYSgpt
 ---
 
 Building SolarGPT has reinforced something I already suspected: the hard part of an AI product isn't the model, it's the scaffolding around it. The data sources you trust, the questions you let users ask, the agent workflow that turns prose into SQL — those decisions compound. Get them right and the product performs well, very well. Get them wrong and it does not.
@@ -42,10 +42,10 @@ The current Postgres setup (`solargpt` schema):
 
 A specific lesson that cost me a half-day: EIA's `facility-fuel` endpoint has generation time-series but no lat/lon. The Plant file from EIA-860 has lat/lon but no generation. To do anything map-shaped you have to join them on `plant_code`. GridStatus does this; so now does SolarGpt.
 
-Similarly for balancing authority polygons — county dissolution from EIA-861 service territory data technically works, but the DOE ArcGIS FeatureServer publishes the 71 BA polygons directly in WGS84 GeoJSON with no auth required. One query string and you're done: https://arcgis.netl.doe.gov/server/rest/services/Hosted/Control__Areas/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson
+Similarly for balancing authority polygons — county dissolution from EIA-861 service territory data technically works, but the DOE ArcGIS FeatureServer publishes the 71 BA polygons directly in WGS84 GeoJSON with no auth required. One query string and you're done: [ArcGIS](https://arcgis.netl.doe.gov/server/rest/services/Hosted/Control__Areas/FeatureServer/0/query?where=1%3D1&outFields=*&outSR=4326&f=geojson)
 
 That's a start. We'll disclose more on the AI Layer later, but for now I'd leave you with this:
 
-AI products live or die on the boring infrastructure underneath the chat box. The model is the easy part now. Picking the right data, shaping the right workflow, and saying no to the wrong scope — that's work.
+> AI products live or die on the boring infrastructure underneath the chat box. The model is the easy part now. Picking the right data, shaping the right workflow, and saying no to the wrong scope — that's work.
 
 More to come...
